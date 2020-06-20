@@ -31,3 +31,4 @@ if __name__ == '__main__':
     app.setWindowIcon(QIcon("./images/blog.ico"))
     main = CenterForm()
     main.show()
+    sys.exit(app.exec_())
